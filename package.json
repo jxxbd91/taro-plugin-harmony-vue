@@ -1,0 +1,23 @@
+{
+  "name": "taro-plugin-harmony-vue",
+  "version": "0.0.1",
+  "description": "Taro plugin for build harmony with vue",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && ts-node build/index.ts",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@tarojs/plugin-platform-harmony-ets": "^4.0.7",
+    "@tarojs/vite-runner": "^4.0.7",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.9.0"
+  }
+}

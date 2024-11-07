@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "rootDir": "src",
+    "outDir": "dist",
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "src/runtime-framework/**/*", "src/runtime-ets/**/*", "src/taro-runtime/**/*"],
+  "include": ["src/**/*"],
+  "compileOnSave": false
+}
